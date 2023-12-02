@@ -87,14 +87,15 @@ a
     display: flex;
 }
 
+#box-imgs {
+    background-color: #ccc;
+    flex: 1 1 200px;
+    padding: 26px;
+}
+
 .txt-main {
     flex: 1 1 450px;
     height: 550px;
     padding: 10px;
 }
 
-#box-imgs {
-    background-color: #ccc;
-    flex: 1 1 200px;
-    padding: 26px;
-}
