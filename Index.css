@@ -28,7 +28,9 @@ body {
     font-size: 35px;
 }
 
-a /* coloquei só pra sair o bagulho do link que eu odeio kkk */
+/* coloquei só pra sair o bagulho do link que eu odeio kkk */
+
+a 
 {
     text-decoration: none;
     color: #0f1820;
@@ -60,4 +62,20 @@ a /* coloquei só pra sair o bagulho do link que eu odeio kkk */
 .nav-header-list a:hover {
     letter-spacing: .1rem;
     transition: .1s;
+}
+
+/* Div com os carrousel */
+
+#carousel-content {
+    margin: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+#carousel-content > section {
+    background-color: #ffff;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 450px;
 }
