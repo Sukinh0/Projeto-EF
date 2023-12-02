@@ -1,5 +1,5 @@
 //só estou deixando o ( * ) para ficar parado só retirar que volta 
-*document.addEventListener('DOMContentLoaded', function () { 
+document.addEventListener('DOMContentLoaded', function () { 
     const carouselContent = document.getElementById('carousel-content');
     let currentIndex = 0; //inicio do carrossel 
 
