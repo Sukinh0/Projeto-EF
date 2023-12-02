@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face 
+{
+    font-family:'japan';
+    src: url(fontes/go3v2.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'japan';
+    background-color: #ccc;
+}
+
+.header-login {
+    border-bottom: 1px solid black;
+    text-align: center;
+    height: auto;
+}
+
+.header-img-link {
+    width: 25%;
+    height: auto;
+}
