@@ -25,6 +25,13 @@ body {
     border-bottom-right-radius:100px ;
     border-top-left-radius:100px ;
     font-family: japan;
+    font-size: 35px;
+}
+
+a /* coloquei só pra sair o bagulho do link que eu odeio kkk */
+{
+    text-decoration: none;
+    color: #0f1820;
 }
 
 #logo 
@@ -38,3 +45,17 @@ body {
     width: 100%;
 }
 
+#nav-header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-header-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-header-list li {
+    margin-right: 70px; /* Espaçamento entre os itens, ajuste conforme necessário */
+}
