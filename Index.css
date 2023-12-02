@@ -8,12 +8,27 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #ccc;
+    background-color: #0f1820;
 }
 
 /* Sessão do header/cabecalho */ 
 
 #cabecalho {
-    background-color: #ffff;
+    background-color: #59c1e6;
     padding: 30px;
+    height: 400px;
+    border-bottom-right-radius:100px ;
+    border-top-left-radius:100px ;
 }
+
+#logo 
+{
+    width: 35%;
+    margin: auto;
+}
+
+#logo img
+{
+    width: 100%;
+}
+
