@@ -64,21 +64,42 @@ a
     transition: .1s;
 }
 
-/* Div com os carrousel */
+/* Div com os carrosel */
 
 #carousel-content {
-    margin: 90px;
+    height: 450px;
+    padding: 20px;
     display: flex;
     justify-content: center;
-    gap: 250px;
+    gap: 100px;
 }
 
 #carousel-content > section {
     background-color: #ffff;
-    margin-bottom: 10px;
-    width: 100%;
+    margin: 30px;
+    width: 40%;
     height: 450px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
 }
+
+#carousel-content > section > div
+{
+    background-color: #59c1e6;
+    height: 60%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#carousel-content > section > article
+{
+    justify-content: center;
+    display: flex;
+    font-family: japan;
+}
+
+
 
 /* Main content / Aside content */
 
