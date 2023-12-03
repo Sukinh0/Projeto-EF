@@ -14,16 +14,162 @@
 
 body {
     font-family: 'japan';
-    background-color: #ccc;
+    background-color: #0f1820;
 }
 
 .header-login {
-    border-bottom: 1px solid black;
-    text-align: center;
+    padding: 26px;
+    background-color: #59c1e6;
+    border-radius: 0 0 90px 90px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-img {
+    width: 220px;
     height: auto;
 }
 
-.header-img-link {
-    width: 25%;
-    height: auto;
+.header-list {
+    display: flex;
+    list-style-type: none;
+    gap: 90px;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: .2rem;
+}
+
+.header-list a:hover {
+    letter-spacing: .4rem;
+    transition: .2s;
+}
+
+/* BOX Central */
+
+.login-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('imagens-projeto/logoC.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 420px;
+    border: 1px solid #ffff;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: .9rem;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #ffff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember a {
+    color: #ffff;
+    text-decoration: none;
+    text-shadow: 1px 3px 4px black;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background-color: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #59c1e6;
+    text-shadow: 2px 3px 4px black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+    letter-spacing: .2rem;
+    transition: .2s;
+}
+
+.wrapper .register-link p {
+    text-shadow: 1px 2px 3px black;
+    letter-spacing: .3rem;
+}
+
+.wrapper .remember label {
+    text-shadow: 1px 3px 4px black;
 }

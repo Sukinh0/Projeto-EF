@@ -11,16 +11,34 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    
-    <header class="header-login">
-        <a href="Index-ProjetoP.HTML">
-            <img class="header-img-link" src="imagens-projeto/logoC.png" alt="">
-        </a>
-        <div class="right-content">
-            <a href="Index-ProjetoP.HTML">Inicio</a>
-            <a href="#">Criar uma conta</a>
+
+
+    <div class="login-box">
+        <div class="wrapper">
+            <form action="">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Nome de usuário" required>
+                    <i class="bi bi-person-fill"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Ensira sua senha" required>
+                    <i class="bi bi-key-fill"></i>
+                </div>
+
+                <div class="remember">
+                    <label><input type="checkbox">Me manter conectado</label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="btn">Entrar</button>
+
+                <div class="register-link">
+                    <p>Ainda não possui uma conta? <a href="#">Registrar-se</a></p>
+                </div>
+         </form>
         </div>
-    </header>
+    </div>
 
 </body>
 </html>
